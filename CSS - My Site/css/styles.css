@@ -18,6 +18,9 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.underlined-span {
+  text-decoration: underline;
+}
 .square {
   height: 200px;
   width: 200px;
@@ -30,11 +33,9 @@ h3 {
 }
 
 .middle-container {
-  background-color: red;
 }
 
 .bottom-container {
-  background-color: blue;
 }
 
 .top-cloud {
@@ -47,4 +48,11 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.scrabble-image {
+  height: 200px;
+}
+.running-image {
+  width: 200px;
 }
