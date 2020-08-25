@@ -50,6 +50,13 @@ a {
 .middle-container {
 }
 
+.skill-row {
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
 .bottom-container {
 }
 
@@ -66,8 +73,25 @@ a {
 }
 
 .scrabble-image {
-  height: 200px;
+  float: left;
+  padding-right: 30px;
+  width: 25%;
 }
+
+/* Stop text wrapping round image
+.skill-para-scrabble {
+  clear: left;
+}
+*/
+
 .running-image {
-  width: 200px;
+  float: right;
+  padding-left: 30px;
+  width: 25%;
 }
+
+/* Stop text wrapping round image
+.skill-para-running {
+  clear: right;
+}
+*/
