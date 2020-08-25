@@ -3,6 +3,7 @@ body {
   /* All 4 margins */
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -26,9 +28,15 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #8fc0a9;
 }
 
 hr {
+  /*
   border-style: dotted;
   border-width: 5px 0 0 0;
   border-top-color: #EAF6F6;
@@ -36,6 +44,16 @@ hr {
   width: 5%;
   margin-top: 3em;
   margin-bottom: 3em;
+  */
+
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
 }
 
 .normal-weight {
@@ -65,31 +83,30 @@ hr {
 }
 
 .profile-para {
-  color: #40514E;
   width: 33%;
   margin: 0 auto;
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
-  line-height: 2;
+  margin: 100px auto 150px auto;
   text-align: left;
   width: 50%;
 }
 
 .bottom-container {
   background-color: #66BFBF;
+  padding-top: 0px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -110,6 +127,10 @@ hr {
   width: 25%;
 }
 
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
 /* Stop text wrapping round image
 .skill-para-running {
   clear: right;
@@ -126,7 +147,7 @@ hr {
   -moz-border-radius: 20px;
   border-radius: 20px;
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 100;
   padding: 13px;
@@ -139,26 +160,41 @@ hr {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .BUTTON_CONTACT:hover {
   border: solid #337FED 1px;
-  background: #1E62D0;
-  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  background: #89c9b8;
+  background-image: -webkit-linear-gradient(top, #89c9b8, #11999E);
+  background-image: -moz-linear-gradient(top, #89c9b8, #11999E);
+  background-image: -ms-linear-gradient(top, #89c9b8, #11999E);
+  background-image: -o-linear-gradient(top, #89c9b8, #11999E);
+  background-image: linear-gradient(to bottom, #89c9b8, #11999E);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
+  color: white;
+}
+
+.footer-media-a {
+  font-size: 1.2rem;
+  margin: 20px 30px;
+}
+
+.footer-a{
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  color: #EAF6F6;
 }
 
 .icon-para {
-  color: #EAF6F6
+  color: #11999E;
 }
 
 .copyright-para {
-  color: #EAF6F6
+  color: #EAF6F6;
 }
