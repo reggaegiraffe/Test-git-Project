@@ -28,6 +28,16 @@ a {
   color: #11999E;
 }
 
+hr {
+  border-style: dotted;
+  border-width: 5px 0 0 0;
+  border-top-color: #EAF6F6;
+  height: 0;
+  width: 5%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .normal-weight {
   font-weight: normal;
 }
@@ -35,19 +45,29 @@ a {
 .underlined-span {
   text-decoration: underline;
 }
+
 .square {
   height: 200px;
   width: 200px;
 }
 
 .top-container {
-/*  background-color: #8fc0a9; */
-  background-color: powderblue;
+  /*  background-color: #8fc0a9; */
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {
+.middle-container {}
+
+.profile-image {
+  padding-top: 6em;
+}
+
+.profile-para {
+  color: #40514E;
+  width: 33%;
+  margin: 0 auto;
 }
 
 .skill-row {
@@ -58,6 +78,7 @@ a {
 }
 
 .bottom-container {
+  background-color: #66BFBF;
 }
 
 .top-cloud {
@@ -83,7 +104,6 @@ a {
   clear: left;
 }
 */
-
 .running-image {
   float: right;
   padding-left: 30px;
@@ -95,3 +115,50 @@ a {
   clear: right;
 }
 */
+.BUTTON_CONTACT {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 13px;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  box-shadow: 0px 0px 0px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_CONTACT:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.icon-para {
+  color: #EAF6F6
+}
+
+.copyright-para {
+  color: #EAF6F6
+}
